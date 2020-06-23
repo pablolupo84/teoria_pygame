@@ -49,6 +49,9 @@ while True:
 
     dist=math.hypot(rect1.x -rect3.x,rect1.y-rect3.y)
 
+    pygame.draw.line(surface,green,rect1.center,rect3.center,2)
+    message='La distancia es {} pixeles'.format((str(int(dist))))
+
     if dist < (64 + 64):
         message='Existe una colision'
 
