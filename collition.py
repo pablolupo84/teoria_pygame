@@ -38,6 +38,8 @@ while True:
 
     if rect1.colliderect(rect2):
         # print('colision')
+        sound=pygame.mixer.Sound('sounds/coin.wav')
+        sound.play()
         message='Existe una colision'
 
     text=font.render(message,True,blue)
