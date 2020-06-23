@@ -3,8 +3,8 @@ import pygame
 
 pygame.init()
 
-width=600
-height=600
+width=900
+height=900
 
 surface = pygame.display.set_mode((width,height)) # surface
 pygame.display.set_caption('Mover Imagen')
@@ -13,7 +13,7 @@ pygame.display.set_caption('Mover Imagen')
 white=(255,255,255)
 red=(134,45,83)
 
-image=pygame.image.load('images/medium_circle.png')
+image=pygame.image.load('images/pobre_3.png')
 rect=image.get_rect()
 rect.center = (width//2,height//2)
 
